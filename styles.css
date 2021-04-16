@@ -71,4 +71,7 @@
         grid-template-columns: repeat(2,1fr);
     }
 }
+.moshahedema h1{
+    color: rgb(255, 0, 0);
+}
 

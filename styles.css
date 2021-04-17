@@ -32,7 +32,7 @@
 }
 .ho button{
     color: rgb(241, 237, 0);
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(63, 24, 24);
     width: 200px;
     height: 30px;
     margin-left: 400px;
@@ -45,7 +45,7 @@
 }
 .m button{
     color: rgb(241, 237, 0);
-    background-color: rgb(255, 0, 0);
+    background-color:rgb(63, 24, 24);
     width: 200px;
     height: 30px;
     margin-left:600px;
@@ -57,7 +57,7 @@
     transform: scale(1.3);
 }
 .a button{
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(63, 24, 24);
     width: 200px;
     height: 30px;
     margin-left: 800px;
@@ -85,24 +85,6 @@
         grid-template-columns: repeat(2,1fr);
     }
 }
-.moshahedema h1{
-    color: rgb(255, 0, 0);
-}
-.moshahedema {
-    width:483px;
-    height:298px;
-    transition:all 0.3s ease;
-    margin-left: 850px;
-    color: wheat;
-}
-.moshahedema:hover{
-    box-shadow:
-    5px 5px #000000,
-    6px 6px #000000,
-    7px 7px #000000;
-    -webkit-transform: translateX(-3px);
-    transform: translateX(-3px);
-}
 .motaharek{
     color: rgb(255, 0, 0);
     margin-top: 20px;
@@ -120,7 +102,7 @@
     list-style: none;
     width: 100%;
     height: 100%;
-    background-color: rgb(116, 13, 90);
+    background-color: rgb(17, 1, 13);
 }
 body{
     margin: 0;
@@ -176,4 +158,19 @@ body{
 @keyframes hobab{
     0%{}
     100%{transform: translateY(-1000px);}
+}
+.amar{
+    margin: 40px;
+}
+.nazar{
+    margin: 50px;
+}
+.ho a{
+    color: rgb(0, 248, 207);
+}
+.m a{
+    color: rgb(0, 248, 207);
+}
+.a a{
+    color: rgb(0, 248, 207);;
 }

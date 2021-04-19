@@ -6,7 +6,7 @@ body{
     background-color: rgb(255, 187, 0);
     width: 200px;
     height: 30px;
-    margin-left: 500px;
+    margin-left: 700px;
     margin-top: 20px;
 }
 .ho button:hover{
@@ -16,7 +16,7 @@ body{
     background-color: rgb(238, 195, 3);
     width: 200px;
     height: 30px;
-    margin-left: 700px;
+    margin-left: 500px;
     margin-top: -30px;
 }
 .a button:hover{
@@ -28,68 +28,64 @@ body{
 .a a{
     color: rgb(0, 0, 0);;
 }
-*{
-	margin: 0;
-	padding: 0;
-}
-
-.clear-fix{
-	clear: both;
-}
-
-a{
-	text-decoration: none;
-}
-
-#nav{
-    margin-left: 240px;	
-    margin-top: 100;
-    font-size: 25px;
-    		
-}
-
-#nav ul{
-	list-style: none;
-}
-
-#nav li{
-	position: relative;
-}
-
-#nav > ul > li{
-	float: left;			
-}
-
-#nav > ul > li > a{
-	display: inline-block;
-	color: white;
-	padding: 0 30px;
-	line-height: 30px;
-}
-
-#nav > ul > li:hover > a{
-	background-color: rgb(0, 0, 0);
-	color: white;
-}
-/* styles for sub menu */
-#nav .sub-menu{
+nav ul ul {
 	display: none;
-	position: absolute;			
 }
-
-#nav .sub-menu > li > a{
+nav ul li:hover > ul {
 	display: block;
-	width: 200px;
-	background-color: rgb(0, 0, 0);
-	color: white;
-    padding: 5px 10px;
-
 }
-
-#nav .sub-menu > li:hover > a{
-	background-color: orange;
+nav ul {
+    background: #efefef;
+    background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);
+    background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%);
+    background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%);
+    box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+    padding: 0 20px;
+    border-radius: 10px;
+    list-style: none;
+    position: relative;
+    display: inline-table;
 }
-
-#nav li:hover > .sub-menu{
-	display: block;
+nav ul:after {
+    content: ""; clear: both; display: block;
+}
+nav ul li {
+    float: left;
+}
+nav ul li:hover {
+    background: #4b545f;
+    background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
+    background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
+    background: -webkit-linear-gradient(top, #4f5964 0%,#5f6975 40%);
+}
+nav ul li:hover a {
+    color: #fff;
+}
+nav ul li a { 
+    display: block; padding: 25px 40px;
+    color: #3f0303; text-decoration: none;
+}
+nav ul ul {
+    background: #5f6975; border-radius: 0px; padding: 0;
+    position: absolute; top: 100%;
+}
+nav ul ul li {
+    float: none;
+    border-top: 1px solid #6b727c;
+    border-bottom: 1px solid #575f6a;
+    position: relative;
+}
+nav ul ul li a {
+    padding: 15px 40px;
+    color: #fff;
+}
+nav ul ul li a:hover {
+    background: #2c0101;
+}
+nav ul ul ul {
+    position: absolute; left: 100%; top:0;
+}
+nav{
+	margin-left: 190px;
+	margin-top: 20px;
 }

@@ -125,10 +125,10 @@ img:hover{
     opacity: 1;
 }
 body{
-    background-color: rgb(53, 14, 14);
+    background-color:rgb(48, 45, 45);
 }
 .hoer ul{
-    margin-left: 350px;
+    margin-left: 300px;
     margin-top: 10px;
-    background: -webkit-linear-gradient(top, #ff0000 0%,#ff0000 100%);
+    background: -webkit-linear-gradient(top, #fdec02 0%,#fffb00 100%);
 }

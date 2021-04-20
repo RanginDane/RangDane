@@ -1,3 +1,11 @@
+body{
+    background-image:url('black.jpg');
+}
+.hoer ul{
+    margin-left: 350px;
+    margin-top: 10px;
+    background: -webkit-linear-gradient(top, #fdec02 0%,#fffb00 100%);
+}
 nav ul ul {
 	display: none;
 }
@@ -56,17 +64,67 @@ nav ul ul ul {
     position: absolute; left: 100%; top:0;
 }
 nav{
-	margin-left: 190px;
-	margin-top:  100px;
+	margin-left: 120px;
+	margin-top:  50px;
 }
-body{
-    background-image:url('1386348976469831.jpg');
+.covart{
+    color:rgb(236, 104, 27);
+    margin-left: 980px;
+    font-size: 30px;
+    margin-top: 20px;
 }
-.hoer ul{
-    margin-left: 350px;
-    margin-top: -80px;
-    background: -webkit-linear-gradient(top, #8177d8 0%,#8b7ad6 100%);
+.galon{
+    color:rgb(236, 104, 27);
+    margin-top: -40px;
+    margin-left: 510px;
 }
-.naveto{
-    margin-top: -200px;
+.halab{
+    color:rgb(236, 104, 27);
+    font-size: 20px;
+    margin-top:-70px;
+    margin-left:10px;
+    
+}
+.parsy img{
+    width: 350px;
+    height: 300px;
+    margin-left: 380px;
+}
+.parst img{
+    width: 350px;
+    height: 300px;
+    margin-top: -300px;
+    margin-left: -100px;
+}
+.parstr img{
+    width: 350px;
+    height: 300px;
+    margin-left: 860px;
+    margin-top: -300px;
+}
+.geymatt{
+    color:rgb(236, 104, 27) ;
+    font-size: 30px;
+    margin-left: 470px;
+    margin-top: -40px;
+}
+.geymaty{
+    color:rgb(236, 104, 27) ;
+    font-size: 30px;
+    margin-left: -15px;
+    margin-top: 50px;
+}
+.geymattr{
+    color:rgb(236, 104, 27) ;
+    font-size: 30px;
+    margin-left: 970px;
+    margin-top: -30px;
+}
+img:hover{
+    -webkit-transform:scale(1.2);
+    -moz-transform:scale(1.2);
+    -o-transform:scale(1.2);
+    box-shadow:0px 0px 3px gray;
+    -webkit-box-shadow:0px 0px 30px gray;
+    opacity: 1;
 }
